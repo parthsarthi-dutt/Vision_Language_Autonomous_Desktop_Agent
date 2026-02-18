@@ -465,7 +465,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 
 ### Example Commands
 
-### #Simple Tasks
+### Simple Tasks
 ```
 ✅ "Open Chrome"
 ✅ "Search for weather"
@@ -473,7 +473,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ✅ "Close this window"
 ```
 
-### #Complex Tasks
+### Complex Tasks
 ```
 ✅ "Open Chrome and search for best Italian restaurants near me"
 ✅ "Go to YouTube and play Lata Mangeshkar songs"
@@ -481,7 +481,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ✅ "Search for Python tutorials on Google"
 ```
 
-### #Multi-Step Tasks
+### Multi-Step Tasks
 ```
 ✅ "Open Chrome, go to GitHub, search for AI projects, and open the first result"
 ✅ "Open calculator and calculate 25 * 37"
@@ -591,7 +591,7 @@ response = model.generate_content([
 
 ### Common Issues
 
-### #1. Microphone Not Working
+### 1. Microphone Not Working
 
 **Symptoms:** No wake word detection, voice recognition fails
 
@@ -604,7 +604,7 @@ python -c "import speech_recognition as sr; print(sr.Microphone.list_microphone_
 self.recognizer.energy_threshold = 300  #Lower value
 ```
 
-### #2. PyAudio Installation Fails
+### 2. PyAudio Installation Fails
 
 **Windows:**
 ```bash
@@ -629,7 +629,7 @@ brew install portaudio
 pip install pyaudio
 ```
 
-### #3. Screen Capture Issues
+### 3. Screen Capture Issues
 
 **Symptoms:** Screenshots are black or empty
 
@@ -643,7 +643,7 @@ monitor = sct.monitors[0]  #Change index
 
 ```
 
-### #4. API Errors
+### 4. API Errors
 
 **OmniParser Connection Failed:**
 ```
@@ -659,7 +659,7 @@ monitor = sct.monitors[0]  #Change index
 - Ensure internet connection
 ```
 
-### #5. Element Click Misses Target
+### 5. Element Click Misses Target
 
 **Symptoms:** Clicks wrong location
 
