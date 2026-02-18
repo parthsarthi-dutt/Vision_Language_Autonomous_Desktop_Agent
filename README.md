@@ -183,7 +183,7 @@ Step 9: Click first video [Element 3]
 └─────────────────┘
 ```
 
-```
+
 ##🏗️ Architecture
 
 ###System Components
