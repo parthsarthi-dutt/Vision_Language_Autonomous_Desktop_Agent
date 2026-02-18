@@ -30,8 +30,7 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 
----
-
+```
 ##🌟 Overview
 
 Vision AI Assistant is a breakthrough automation tool that combines **computer vision**, **natural language processing**, and **multimodal AI** to understand and interact with your computer screen like a human would. Unlike traditional automation tools that rely on brittle selectors or coordinates, this assistant **sees** your screen, **understands** the context, and **executes** tasks intelligently.
@@ -44,8 +43,7 @@ Vision AI Assistant is a breakthrough automation tool that combines **computer v
 - **🔄 Adaptive Execution**: Monitors screen changes and adapts strategy in real-time
 - **🎨 Beautiful UI**: Modern, translucent overlay interface with status indicators
 
----
-
+```
 ##✨ Features
 
 ###🖼️ Screen Understanding
@@ -185,8 +183,7 @@ Step 9: Click first video [Element 3]
 └─────────────────┘
 ```
 
----
-
+```
 ##🏗️ Architecture
 
 ###System Components
@@ -292,8 +289,7 @@ Step 9: Click first video [Element 3]
 }
 ```
 
----
-
+```
 ##🚀 Installation
 
 ###Prerequisites
@@ -390,8 +386,7 @@ You should see:
 ✓ Voice recognition ready
 ```
 
----
-
+```
 ##⚙️ Configuration
 
 ###Main Configuration Variables
@@ -440,8 +435,7 @@ self.recognizer.energy_threshold = 4000      #Lower = more sensitive
 self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ```
 
----
-
+```
 ##📖 Usage Guide
 
 ###Basic Usage
@@ -522,8 +516,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 | ⏳ **Waiting...** | Monitoring screen changes |
 | ✅ **Complete!** | Task finished |
 
----
-
+```
 ##🔌 API Integration
 
 ###OmniParser API
@@ -595,8 +588,7 @@ response = model.generate_content([
 | **ask_question** | Ask user | `question`, `description` |
 | **end** | Complete task | `message`, `description` |
 
----
-
+```
 ##🐛 Troubleshooting
 
 ###Common Issues
@@ -707,8 +699,7 @@ current_screen.png           #Latest screenshot
 last_stable_screen.png       #Last verified stable screen
 ```
 
----
-
+```
 ##🔬 Advanced Usage
 
 ###Custom System Prompt
@@ -765,8 +756,7 @@ if "custom wake word" in text:
     pass
 ```
 
----
-
+```
 ##🤝 Contributing
 
 We welcome contributions! Here's how you can help:
@@ -836,8 +826,7 @@ def example_function(param: str, threshold: float = 0.5) -> bool:
     pass
 ```
 
----
-
+```
 ##📊 Performance Tips
 
 ###Optimize Speed
@@ -873,8 +862,7 @@ for f in glob.glob("annotated_screen_*.png"):
         os.remove(f)
 ```
 
----
-
+```
 ##🔒 Security & Privacy
 
 ###Data Handling
@@ -902,8 +890,7 @@ gemini_*.txt
    - May contain sensitive information
    - Check annotated images for personal data
 
----
-
+```
 ##📜 License
 
 ```
@@ -930,8 +917,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
----
-
+```
 ##🙏 Acknowledgments
 
 - **OmniParser** - Microsoft Research for UI element detection
@@ -940,8 +926,7 @@ SOFTWARE.
 - **SpeechRecognition** - Voice input handling
 - **Community Contributors** - For feedback and improvements
 
----
-
+```
 ##📞 Contact & Support
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/vision-ai-assistant/issues)
@@ -949,8 +934,7 @@ SOFTWARE.
 - **Email**: your.email@example.com
 - **Twitter**: @yourusername
 
----
-
+```
 ##🗺️ Roadmap
 
 ###Version 1.0 (Current)
@@ -972,8 +956,7 @@ SOFTWARE.
 - 🔲 Cloud sync for tasks
 - 🔲 Collaborative automation sharing
 
----
-
+```
 ##📈 Project Stats
 
 ![GitHub Stars](https://img.shields.io/github/stars/yourusername/vision-ai-assistant?style=social)
@@ -981,8 +964,7 @@ SOFTWARE.
 ![GitHub Issues](https://img.shields.io/github/issues/yourusername/vision-ai-assistant)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/vision-ai-assistant)
 
----
-
+```
 <div align="center">
 
 **If you find this project helpful, please consider giving it a ⭐!**
@@ -991,28 +973,4 @@ Made with ❤️ by [Your Name]
 
 </div>
 
----
-
-##📚 Additional Resources
-
-###Tutorials
-- [Getting Started Video](https://youtube.com/watch?v=...)
-- [Advanced Usage Guide](docs/advanced-guide.md)
-- [API Reference](docs/api-reference.md)
-
-###Related Projects
-- [OmniParser](https://github.com/microsoft/OmniParser)
-- [Gemini API](https://ai.google.dev/)
-- [PyAutoGUI](https://pyautogui.readthedocs.io/)
-
-###Useful Links
-- [Changelog](CHANGELOG.md)
-- [Contributing Guidelines](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-
----
-
-**Last Updated**: December 2024
-**Version**: 1.0.0
-**Status**: Active Development 🚀
 ```
