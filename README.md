@@ -826,7 +826,7 @@ def example_function(param: str, threshold: float = 0.5) -> bool:
     pass
 ```
 
-```
+
 ## 📊 Performance Tips
 
 ### Optimize Speed
@@ -862,7 +862,7 @@ for f in glob.glob("annotated_screen_*.png"):
         os.remove(f)
 ```
 
-```
+
 ## 🔒 Security & Privacy
 
 ### Data Handling
@@ -890,7 +890,7 @@ gemini_*.txt
    - May contain sensitive information
    - Check annotated images for personal data
 
-```
+
 ## 📜 License
 
 ```
@@ -917,9 +917,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-```
-## 🙏 Acknowledgments
 
+## 🙏 Acknowledgments
+```
 - **OmniParser** - Microsoft Research for UI element detection
 - **Google Gemini** - Multimodal AI capabilities
 - **PyQt5** - Cross-platform GUI framework
@@ -928,49 +928,10 @@ SOFTWARE.
 
 ```
 ## 📞 Contact & Support
-
+```
 - **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/vision-ai-assistant/issues)
 - **Discussions**: [Ask questions and share ideas](https://github.com/yourusername/vision-ai-assistant/discussions)
 - **Email**: your.email@example.com
 - **Twitter**: @yourusername
-
-```
-## 🗺️ Roadmap
-
-### Version 1.0 (Current)
-- ✅ Screen understanding with OmniParser
-- ✅ Voice input with wake word
-- ✅ Basic task automation
-- ✅ Real-time screen monitoring
-
-### Version 1.1 (Planned)
-- 🔲 Multi-monitor support
-- 🔲 Task templates/macros
-- 🔲 Scheduled automation
-- 🔲 Browser extension integration
-
-### Version 2.0 (Future)
-- 🔲 Self-learning from user corrections
-- 🔲 Plugin system for custom actions
-- 🔲 Mobile app companion
-- 🔲 Cloud sync for tasks
-- 🔲 Collaborative automation sharing
-
-```
-## 📈 Project Stats
-
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/vision-ai-assistant?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/yourusername/vision-ai-assistant?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/yourusername/vision-ai-assistant)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/vision-ai-assistant)
-
-```
-<div align="center">
-
-**If you find this project helpful, please consider giving it a ⭐!**
-
-Made with ❤️ by [Your Name]
-
-</div>
 
 ```
