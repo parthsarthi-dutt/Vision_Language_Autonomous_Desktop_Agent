@@ -588,7 +588,7 @@ response = model.generate_content([
 | **ask_question** | Ask user | `question`, `description` |
 | **end** | Complete task | `message`, `description` |
 
-```
+
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -642,6 +642,7 @@ monitor = sct.monitors[0]  #Change index
 
 #Check permissions (Mac)
 #System Preferences → Security & Privacy → Screen Recording
+
 ```
 
 ### #4. API Errors
