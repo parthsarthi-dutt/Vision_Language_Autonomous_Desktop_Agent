@@ -1,0 +1,9 @@
+PyQt5
+mss
+Pillow
+google-generativeai
+pyautogui
+pynput
+requests
+python-dotenv
+numpy
