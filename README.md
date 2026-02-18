@@ -435,7 +435,7 @@ self.recognizer.energy_threshold = 4000      #Lower = more sensitive
 self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ```
 
-```
+
 ##📖 Usage Guide
 
 ###Basic Usage
