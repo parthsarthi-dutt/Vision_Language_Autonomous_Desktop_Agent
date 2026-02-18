@@ -516,7 +516,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 | ⏳ **Waiting...** | Monitoring screen changes |
 | ✅ **Complete!** | Task finished |
 
-```
+
 ## 🔌 API Integration
 
 ### OmniParser API
