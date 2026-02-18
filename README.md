@@ -289,7 +289,7 @@ Step 9: Click first video [Element 3]
 }
 ```
 
-```
+
 ## 🚀 Installation
 
 ### Prerequisites
@@ -381,12 +381,10 @@ python vision_assistant.py
 ```
 
 You should see:
-```
+
 🎤 Adjusting for ambient noise...
 ✓ Voice recognition ready
-```
 
-```
 ## ⚙️ Configuration
 
 ### Main Configuration Variables
@@ -700,7 +698,7 @@ current_screen.png           #Latest screenshot
 last_stable_screen.png       #Last verified stable screen
 ```
 
-```
+
 ## 🔬 Advanced Usage
 
 ### Custom System Prompt
@@ -757,7 +755,7 @@ if "custom wake word" in text:
     pass
 ```
 
-```
+
 ## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
@@ -928,11 +926,4 @@ SOFTWARE.
 - **Community Contributors** - For feedback and improvements
 
 ```
-## 📞 Contact & Support
-```
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/vision-ai-assistant/issues)
-- **Discussions**: [Ask questions and share ideas](https://github.com/yourusername/vision-ai-assistant/discussions)
-- **Email**: your.email@example.com
-- **Twitter**: @yourusername
 
-```
