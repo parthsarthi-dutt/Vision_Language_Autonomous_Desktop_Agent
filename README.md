@@ -16,7 +16,7 @@
 
 ```
 
-##📋 Table of Contents
+## 📋 Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-features)
@@ -31,11 +31,11 @@
 - [License](#-license)
 
 ```
-##🌟 Overview
+## 🌟 Overview
 
 Vision AI Assistant is a breakthrough automation tool that combines **computer vision**, **natural language processing**, and **multimodal AI** to understand and interact with your computer screen like a human would. Unlike traditional automation tools that rely on brittle selectors or coordinates, this assistant **sees** your screen, **understands** the context, and **executes** tasks intelligently.
 
-###🎯 What Makes It Special?
+### 🎯 What Makes It Special?
 
 - **🔍 Visual Understanding**: Uses OmniParser to detect and parse ALL UI elements on screen
 - **🧠 AI Decision Making**: Powered by Google's Gemini 2.5 Flash for intelligent action planning
@@ -44,9 +44,9 @@ Vision AI Assistant is a breakthrough automation tool that combines **computer v
 - **🎨 Beautiful UI**: Modern, translucent overlay interface with status indicators
 
 ```
-##✨ Features
+## ✨ Features
 
-###🖼️ Screen Understanding
+### 🖼️ Screen Understanding
 ```
 ┌─────────────────────────────────────────────┐
 │  Your Screen                                │
@@ -63,7 +63,7 @@ Vision AI Assistant is a breakthrough automation tool that combines **computer v
 └─────────────────────────────────────────────┘
 ```
 
-###🎤 Voice Input System
+### 🎤 Voice Input System
 
 **Two Activation Modes:**
 
@@ -87,7 +87,7 @@ Vision AI Assistant is a breakthrough automation tool that combines **computer v
 - **Online Mode** (Default): Google Speech Recognition - High accuracy, requires internet
 - **Offline Mode**: Sphinx Recognition - Works offline, lower accuracy
 
-###🤖 AI-Powered Task Execution
+### 🤖 AI-Powered Task Execution
 
 The assistant breaks down complex tasks into atomic steps:
 
@@ -117,7 +117,7 @@ Step 9: Click first video [Element 3]
     [Task Complete ✅]
 ```
 
-###📊 Real-Time Monitoring
+### 📊 Real-Time Monitoring
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -141,7 +141,7 @@ Step 9: Click first video [Element 3]
 └─────────────────────────────────────────────┘
 ```
 
-###🎨 User Interface
+### 🎨 User Interface
 
 **Main Input Window**
 ```
@@ -184,9 +184,9 @@ Step 9: Click first video [Element 3]
 ```
 
 
-##🏗️ Architecture
+## 🏗️ Architecture
 
-###System Components
+### System Components
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -219,7 +219,7 @@ Step 9: Click first video [Element 3]
 └─────────────────────────────────────────────────────────────┘
 ```
 
-###Data Flow
+### Data Flow
 
 ```
 1. Input Stage
@@ -260,7 +260,7 @@ Step 9: Click first video [Element 3]
    [Ready for next task]
 ```
 
-###JSON Response Format
+### JSON Response Format
 
 ```json
 {
@@ -290,23 +290,23 @@ Step 9: Click first video [Element 3]
 ```
 
 ```
-##🚀 Installation
+## 🚀 Installation
 
-###Prerequisites
+### Prerequisites
 
 - **Python**: 3.8 or higher
 - **Operating System**: Windows (primary), Linux/Mac (experimental)
 - **Internet**: Required for Google Speech Recognition and Gemini API
 - **Microphone**: Required for voice input
 
-###Step 1: Clone Repository
+### Step 1: Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/vision-ai-assistant.git
 cd vision-ai-assistant
 ```
 
-###Step 2: Create Virtual Environment (Recommended)
+### Step 2: Create Virtual Environment (Recommended)
 
 ```bash
 #Windows
@@ -318,14 +318,14 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-###Step 3: Install Dependencies
+### Step 3: Install Dependencies
 
 ```bash
 pip install --upgrade pip
 pip install PyQt5 mss pillow google-generativeai pyautogui pynput requests python-dotenv numpy
 ```
 
-###Step 4: Install Speech Recognition
+### Step 4: Install Speech Recognition
 
 ```bash
 #Main package
@@ -342,7 +342,7 @@ pipwin install pyaudio
 pip install pocketsphinx
 ```
 
-###Step 5: Setup Environment Variables
+### Step 5: Setup Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -355,7 +355,7 @@ gemini_key=YOUR_GEMINI_API_KEY_HERE
 2. Create new API key
 3. Copy and paste into `.env` file
 
-###Step 6: Setup OmniParser
+### Step 6: Setup OmniParser
 
 OmniParser requires a separate service. Options:
 
@@ -374,7 +374,7 @@ cd OmniParser
 #Update OMNIPARSER_URL in code to your local endpoint
 ```
 
-###Step 7: Verify Installation
+### Step 7: Verify Installation
 
 ```bash
 python vision_assistant.py
@@ -387,9 +387,9 @@ You should see:
 ```
 
 ```
-##⚙️ Configuration
+## ⚙️ Configuration
 
-###Main Configuration Variables
+### Main Configuration Variables
 
 Edit these at the top of `vision_assistant.py`:
 
@@ -414,14 +414,14 @@ AUTO_SUBMIT_VOICE = False                    #Auto-submit after recognition
 AUTO_SUBMIT_DELAY_MS = 1000                  #Delay before auto-submit
 ```
 
-###Voice Recognition Modes
+### Voice Recognition Modes
 
 | Mode | Accuracy | Speed | Internet | Setup Difficulty |
 |------|----------|-------|----------|------------------|
 | **Google** (Recommended) | ⭐⭐⭐⭐⭐ | Fast | Required | Easy |
 | **Sphinx** (Offline) | ⭐⭐⭐ | Medium | Not needed | Medium |
 
-###Adjusting Sensitivity
+### Adjusting Sensitivity
 
 **Screen Change Detection:**
 ```python
@@ -436,9 +436,9 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ```
 
 
-##📖 Usage Guide
+## 📖 Usage Guide
 
-###Basic Usage
+### Basic Usage
 
 **Method 1: Voice Command (Wake Word)**
 ```
@@ -465,9 +465,9 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 3. Press Enter
 ```
 
-###Example Commands
+### Example Commands
 
-####Simple Tasks
+### #Simple Tasks
 ```
 ✅ "Open Chrome"
 ✅ "Search for weather"
@@ -475,7 +475,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ✅ "Close this window"
 ```
 
-####Complex Tasks
+### #Complex Tasks
 ```
 ✅ "Open Chrome and search for best Italian restaurants near me"
 ✅ "Go to YouTube and play Lata Mangeshkar songs"
@@ -483,14 +483,14 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 ✅ "Search for Python tutorials on Google"
 ```
 
-####Multi-Step Tasks
+### #Multi-Step Tasks
 ```
 ✅ "Open Chrome, go to GitHub, search for AI projects, and open the first result"
 ✅ "Open calculator and calculate 25 * 37"
 ✅ "Go to Amazon, search for wireless headphones under $50"
 ```
 
-###Control Panel Usage
+### Control Panel Usage
 
 ```
 ┌─────────────────────────────────┐
@@ -504,7 +504,7 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 └─────────┴───────────────────────┘
 ```
 
-###Status Indicators
+### Status Indicators
 
 | Status | Meaning |
 |--------|---------|
@@ -517,9 +517,9 @@ self.recognizer.pause_threshold = 1.5        #Shorter = faster detection
 | ✅ **Complete!** | Task finished |
 
 ```
-##🔌 API Integration
+## 🔌 API Integration
 
-###OmniParser API
+### OmniParser API
 
 **Endpoint:**
 ```
@@ -549,7 +549,7 @@ data = {
 }
 ```
 
-###Gemini API
+###  Gemini API
 
 **Configuration:**
 ```python
@@ -577,7 +577,7 @@ response = model.generate_content([
 }
 ```
 
-###Step Types Reference
+### Step Types Reference
 
 | Type | Description | Required Fields |
 |------|-------------|-----------------|
@@ -589,11 +589,11 @@ response = model.generate_content([
 | **end** | Complete task | `message`, `description` |
 
 ```
-##🐛 Troubleshooting
+## 🐛 Troubleshooting
 
-###Common Issues
+### Common Issues
 
-####1. Microphone Not Working
+### #1. Microphone Not Working
 
 **Symptoms:** No wake word detection, voice recognition fails
 
@@ -606,7 +606,7 @@ python -c "import speech_recognition as sr; print(sr.Microphone.list_microphone_
 self.recognizer.energy_threshold = 300  #Lower value
 ```
 
-####2. PyAudio Installation Fails
+### #2. PyAudio Installation Fails
 
 **Windows:**
 ```bash
@@ -631,7 +631,7 @@ brew install portaudio
 pip install pyaudio
 ```
 
-####3. Screen Capture Issues
+### #3. Screen Capture Issues
 
 **Symptoms:** Screenshots are black or empty
 
@@ -644,7 +644,7 @@ monitor = sct.monitors[0]  #Change index
 #System Preferences → Security & Privacy → Screen Recording
 ```
 
-####4. API Errors
+### #4. API Errors
 
 **OmniParser Connection Failed:**
 ```
@@ -660,7 +660,7 @@ monitor = sct.monitors[0]  #Change index
 - Ensure internet connection
 ```
 
-####5. Element Click Misses Target
+### #5. Element Click Misses Target
 
 **Symptoms:** Clicks wrong location
 
@@ -674,7 +674,7 @@ call_omniparser(
 )
 ```
 
-###Debug Mode
+### Debug Mode
 
 Enable detailed logging:
 
@@ -687,7 +687,7 @@ logging.basicConfig(level=logging.DEBUG)
 print(f"DEBUG: Element {elem_num} at position {click_x}, {click_y}")
 ```
 
-###Log Files
+### Log Files
 
 The application generates these files for debugging:
 
@@ -700,9 +700,9 @@ last_stable_screen.png       #Last verified stable screen
 ```
 
 ```
-##🔬 Advanced Usage
+## 🔬 Advanced Usage
 
-###Custom System Prompt
+### Custom System Prompt
 
 Edit `SYSTEM_PROMPT` variable to customize AI behavior:
 
@@ -713,7 +713,7 @@ SYSTEM_PROMPT = """You are a virtual assistant specialized in...
 """
 ```
 
-###Adding New Step Types
+### Adding New Step Types
 
 1. **Define step type in prompt:**
 ```python
@@ -738,7 +738,7 @@ def _execute_custom_action(self, step):
     pass
 ```
 
-###Multi-Monitor Support
+### Multi-Monitor Support
 
 ```python
 #In capture_and_process()
@@ -747,7 +747,7 @@ with mss.mss() as sct:
     img = sct.grab(monitor)
 ```
 
-###Custom Voice Commands
+### Custom Voice Commands
 
 ```python
 #In _listen_for_wake_word()
@@ -757,11 +757,11 @@ if "custom wake word" in text:
 ```
 
 ```
-##🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Here's how you can help:
 
-###Ways to Contribute
+### Ways to Contribute
 
 1. **🐛 Report Bugs**
    - Use GitHub Issues
@@ -783,7 +783,7 @@ We welcome contributions! Here's how you can help:
    - Create feature branch
    - Submit pull request
 
-###Development Setup
+### Development Setup
 
 ```bash
 #Fork and clone
@@ -804,7 +804,7 @@ git push origin feature/your-feature-name
 #Create Pull Request on GitHub
 ```
 
-###Code Style
+### Code Style
 
 - Follow PEP 8
 - Add docstrings to functions
@@ -827,9 +827,9 @@ def example_function(param: str, threshold: float = 0.5) -> bool:
 ```
 
 ```
-##📊 Performance Tips
+## 📊 Performance Tips
 
-###Optimize Speed
+### Optimize Speed
 
 ```python
 #Reduce capture delay
@@ -842,7 +842,7 @@ BUFFER_DELAY_MS = 300  #Faster transitions
 SCREEN_CHANGE_THRESHOLD = 0.03  #More sensitive
 ```
 
-###Reduce API Calls
+### Reduce API Calls
 
 ```python
 #Batch operations in single prompt
@@ -852,7 +852,7 @@ SCREEN_CHANGE_THRESHOLD = 0.03  #More sensitive
 #Only when screen will definitely change
 ```
 
-###Memory Management
+### Memory Management
 
 ```python
 #Clean old files periodically
@@ -863,15 +863,15 @@ for f in glob.glob("annotated_screen_*.png"):
 ```
 
 ```
-##🔒 Security & Privacy
+## 🔒 Security & Privacy
 
-###Data Handling
+### Data Handling
 
 - **Screenshots**: Stored locally, deleted on restart
 - **Voice Data**: Processed in real-time, not stored
 - **API Keys**: Kept in `.env`, never committed to Git
 
-###Best Practices
+### Best Practices
 
 1. **Never commit `.env` file**
 ```bash
@@ -891,7 +891,7 @@ gemini_*.txt
    - Check annotated images for personal data
 
 ```
-##📜 License
+## 📜 License
 
 ```
 MIT License
@@ -918,7 +918,7 @@ SOFTWARE.
 ```
 
 ```
-##🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 - **OmniParser** - Microsoft Research for UI element detection
 - **Google Gemini** - Multimodal AI capabilities
@@ -927,7 +927,7 @@ SOFTWARE.
 - **Community Contributors** - For feedback and improvements
 
 ```
-##📞 Contact & Support
+## 📞 Contact & Support
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/vision-ai-assistant/issues)
 - **Discussions**: [Ask questions and share ideas](https://github.com/yourusername/vision-ai-assistant/discussions)
@@ -935,21 +935,21 @@ SOFTWARE.
 - **Twitter**: @yourusername
 
 ```
-##🗺️ Roadmap
+## 🗺️ Roadmap
 
-###Version 1.0 (Current)
+### Version 1.0 (Current)
 - ✅ Screen understanding with OmniParser
 - ✅ Voice input with wake word
 - ✅ Basic task automation
 - ✅ Real-time screen monitoring
 
-###Version 1.1 (Planned)
+### Version 1.1 (Planned)
 - 🔲 Multi-monitor support
 - 🔲 Task templates/macros
 - 🔲 Scheduled automation
 - 🔲 Browser extension integration
 
-###Version 2.0 (Future)
+### Version 2.0 (Future)
 - 🔲 Self-learning from user corrections
 - 🔲 Plugin system for custom actions
 - 🔲 Mobile app companion
@@ -957,7 +957,7 @@ SOFTWARE.
 - 🔲 Collaborative automation sharing
 
 ```
-##📈 Project Stats
+## 📈 Project Stats
 
 ![GitHub Stars](https://img.shields.io/github/stars/yourusername/vision-ai-assistant?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/yourusername/vision-ai-assistant?style=social)
