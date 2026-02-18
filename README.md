@@ -30,7 +30,7 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 
-```
+`
 ## 🌟 Overview
 
 Vision AI Assistant is a breakthrough automation tool that combines **computer vision**, **natural language processing**, and **multimodal AI** to understand and interact with your computer screen like a human would. Unlike traditional automation tools that rely on brittle selectors or coordinates, this assistant **sees** your screen, **understands** the context, and **executes** tasks intelligently.
@@ -43,7 +43,7 @@ Vision AI Assistant is a breakthrough automation tool that combines **computer v
 - **🔄 Adaptive Execution**: Monitors screen changes and adapts strategy in real-time
 - **🎨 Beautiful UI**: Modern, translucent overlay interface with status indicators
 
-```
+
 ## ✨ Features
 
 ### 🖼️ Screen Understanding
