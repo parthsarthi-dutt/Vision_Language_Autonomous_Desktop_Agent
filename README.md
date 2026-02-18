@@ -1,5 +1,5 @@
-```txt
-#🤖 Vision AI Assistant - Intelligent Screen Automation
+
+# 🤖 Vision AI Assistant - Intelligent Screen Automation
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 </div>
 
-```
+
 
 ## 📋 Table of Contents
 
